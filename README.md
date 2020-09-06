@@ -7,18 +7,18 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 Originally a Marie fork, Megumi evolved further and was built to be more robust and more dedicated to Anime Chats. 
 
-Can be found on telegram as [Megumi](https://t.me/Megumibot).
+Can be found on telegram as [Megumi](https://t.me/Megumirobot).
 
-The Support group can be reached out to at [Tiger Union](https://t.me/TigerUnion), where you can ask for help about @MegumiRobot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Blessing Support](https://t.me/BlessingSupport), where you can ask for help about @MegumiRobot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [Tiger Updates](https://t.me/TigerUpdates) 
+News channel as at [Megumi Updates](https://t.me/BlessingUpdates) 
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @TigerUnion to your own support chat. 
+ - Edit any mentions of @BlessingSupport to your own support chat. 
  - We do not support forks, once you fork the bot and deploy the headache of bugs and support is your own, please do not come to our support chat asking technical help.
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/https://github.com/dragonempire117/Megumi)
+ - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/https://github.com/Unknown746/Megumi)
  - If you come to our support chat on Telegram asking help about a "fork" or a technical issue with a module, you will end up getting ignored or banned. 
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
 
@@ -33,13 +33,13 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dragonempire117/Megumi.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Unknown746/Megumi.git)
 
 </details>  
 <details>
   <summary>Steps to self Host!! </summary>
 
-Note: This instruction set is just a copy-paste from Marie, note that [Tiger Union](https://t.me/TigerUnion) aims to handle support for @TigerUniion and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
+Note: This instruction set is just a copy-paste from Marie, note that [Blessing Support](https://t.me/BlessingSupport) aims to handle support for @BlessingSupport and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
@@ -173,7 +173,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from SaitamaRobot import dispatcher`.
+`from Megumi import dispatcher`.
 
 You can then add commands using the usual
 
@@ -193,13 +193,13 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m SaitamaRobot`
+`python3 -m Megumi`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/OnePunchSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Blessing Support](https://t.me/BlessingSupport)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
@@ -212,4 +212,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [Tiger Union](https://t.me/TigerUnion) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Blessing Support](https://t.me/BlessingSupport) or simply submit a pull request on the readme.
