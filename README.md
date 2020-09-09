@@ -33,7 +33,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNoor12shah%2FPenguins&template=https%3A%2F%2Fgithub.com%2FUnknown746%2FMegumi.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNoor12shah%2FPenguins&template=https%3A%2F%2Fgithub.com%2FNoor12shah%2FPenguins.git)
 
 </details>  
 <details>
